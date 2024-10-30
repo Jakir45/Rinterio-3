@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
     <style>
         .manrope{
             font-family: "Manrope", sans-serif;
@@ -95,11 +96,11 @@
     </header>
     <main>
         <!-- design liveable section -->
-         <section class="bg-slate-50 mt-10">
+         <section class=" mt-10 bg-slate-100">
             <!-- <div>
                 <img class="absolute border ml-10  border-dotted py-6" src="./assets/Vector.png" alt="">
             </div> -->
-            <div class="container mx-auto grid lg:grid-cols-2 py-16 gap-5 px-5">
+            <div class="container mx-auto grid lg:grid-cols-2 py-16 gap-5 px-5 ">
                 <!-- text -->
                 <div class="space-y-7">
                     <button class=" btn bg-white rounded-2xl "> <i class="fa-solid fa-arrow-right-long"></i> About Us</button>
@@ -136,7 +137,7 @@
                 </div>
             </div>
             <!-- number card section -->
-             <div class="container mx-auto">
+             <div class="container mx-auto ">
                 <div class="grid lg:grid-cols-4 grid-cols-1 bg-white rounded-lg py-10 gap-10 mx-5">
                     <div class="text-center space-y-3">
                         <p><i class="fa-regular fa-envelope text-3xl"></i></p>
@@ -161,7 +162,7 @@
                 </div>
              </div>
              <!-- work section  -->
-              <div class="container mx-auto">
+              <div class="container mx-auto ">
                 <div class="text-center mt-12 space-y-5 mx-5">
                     <button class=" btn bg-white rounded-2xl "> <i class="fa-solid fa-arrow-right-long"></i> How we works</button>
                     <h1 class="font-bold text-3xl text-black">Our Works Process</h1>
@@ -200,7 +201,7 @@
                  </div>
               </div>
               <!-- Read our Articles section-->
-               <div class="bg-slate-50">
+               <div class="">
                 <!-- text -->
                 <div class="text-center pt-16 space-y-7 ">
                     <button class="btn bg-[#ABEF5F33]"> <i class="fa-solid fa-arrow-right-long"></i>  Rinterio News</button>
@@ -208,8 +209,8 @@
                     <p class="text-slate-500">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
                 </div>
                 <!-- card -->
-                <div class="bg-slate-50">
-                    <div class="grid lg:grid-cols-3 grid-cols-1 container mx-auto py-10 space-y-4">
+                <div class="">
+                    <div class="grid lg:grid-cols-3 grid-cols-1 container mx-auto py-10 space-y-4 ">
                         <!-- card-1 -->
                         <div class="space-y-2  p-5 mx-5 bg-white shadow-lg rounded-lg">
                             <img src="./assets/article1.png" alt="">
@@ -264,8 +265,52 @@
                      </div>
                    </div>
                 </div>
+                
                
-         </section>
+            </section>
+            <!-- input section -->
+             <section>
+                <div class="img border-t-8 border-white ">
+                    <!-- input text -->
+                    <div class="container mx-auto  ">
+                        <div class="text-center mx-5 space-y-7 py-10">
+                            <button class="btn bg-[#ABEF5F33] border-none text-xl"><i class="fa-solid fa-arrow-right-long"></i>
+                                Let's Connect
+                            </button>
+                            <h2 class="font-bold text-3xl">Let's Discuss Next Project</h2>
+                            <p class="text-slate-500">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+    
+                        </div>
+                        <!-- input field -->
+                         
+                            <div class="grid lg:grid-cols-2 grid-cols-1 space-y-5 mx-5 lg:mx-32 gap-5 pb-14">
+                                <div>
+                                    <input class="p-4 outline-none mt-3 rounded-lg w-full" type="text" placeholder="First Name*">
+                                </div>
+                                <div>
+                                    <input class="p-4 outline-none mt-3 rounded-lg w-full" type="text" placeholder="Last Name*">
+                                </div>
+                                <div>
+                                    <input class="p-4 outline-none mt-3 rounded-lg w-full" type="text" placeholder="Phone Number*">
+                                </div>
+                                <div>
+                                    <input class="p-4 outline-none mt-3 rounded-lg w-full" type="text" placeholder="Email Number*">
+                                </div>
+                                
+    
+                                <div class="lg:col-span-2 ">
+                                    <textarea class="w-full pb-36 rounded-lg p-5" placeholder="Write your message here" name="" id=""></textarea>
+                                </div>
+                                <div class="lg:col-span-2">
+                                    <button class="btn bg-[#ABEF5F] w-full"> Send Mail <i class="fa-solid fa-arrow-right-long"></i></button>
+                                </div>
+                                
+                                
+                             </div>
+                         </div>
+                    
+                 </div>
+             </section>
     </main>
     <footer>
 
